@@ -120,7 +120,12 @@ SVC model with penalty 1.
 <br>
 
 #### Feature Importance
+
+   Once having fitted our linear SVM it is possible to access the classifier coefficients using .coef_ on the trained model. <br>
+The weights obtained from svm.coef_ represent the vector coordinates which are orthogonal to the hyperplane and their direction indicates the predicted class. The absolute size of the coefficients in relation to each other can then be used to determine feature importance for the data separation task
+
 <img width="792" alt="Screen Shot 2022-05-16 at 5 04 27 PM" src="https://user-images.githubusercontent.com/75053989/168682339-f9c5cea0-a4f3-4951-8e72-ac786cf131b2.png">
+<br>
 
 ## Model comparison
    
