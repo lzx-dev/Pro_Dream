@@ -63,7 +63,35 @@ For SVM with non-linear kernel functions, it is not possible to interpert featur
 when the SVM is Non-linear the dataset is mapped into a space of higher dimension, which is quite different from the parent dataset and the property is changed here, So I did not do non-lienar SVM in this project.
 
 #### Metrics
-I used accuracy and F1 score to evaluated trained model.
+I used accuracy and F1 score to evaluated trained model. <br>
+<table width="120">
+<tbody>
+<tr>
+<td style="font-weight: 300;" colspan="3" width="120">Confusion&nbsp;Matrix</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td style="font-weight: 300;" width="53">Actually&nbsp;Positive&nbsp;(1)</td>
+<td style="font-weight: 300;" width="51">Actually&nbsp;Negative&nbsp;(0)</td>
+</tr>
+<tr>
+<td style="font-weight: 300;" width="51">Predicted&nbsp;Positive&nbsp;(1)</td>
+<td style="font-weight: 300;" width="53"><b>TP</b></td>
+<td style="font-weight: 300;" width="51">FP</td>
+</tr>
+<tr>
+<td style="font-weight: 300;" width="51">Predicted&nbsp;Negative&nbsp;(0)</td>
+<td style="font-weight: 300;" width="53">FN</td>
+<td style="font-weight: 300;" width="51"><b>TN</b></td>
+</tr>
+</tbody>
+</table
+   
+Accuracy = (TN + TP)/(TP + TN + FN + FP) <br>
+percison = TP/(TP+ FP) <br>
+recall = TP/(TP+ FN) <br>
+F1 = 2/ (1/percison + 1/recall)<br>
+F1 the harmonic mean of Precision and Recall and gives a better measure of the incorrectly classified cases than the Accuracy Metric
 
 
 ## Results
@@ -94,7 +122,8 @@ SVC model with penalty 1.
 #### Feature Importance
 <img width="792" alt="Screen Shot 2022-05-16 at 5 04 27 PM" src="https://user-images.githubusercontent.com/75053989/168682339-f9c5cea0-a4f3-4951-8e72-ac786cf131b2.png">
 
-## Model comparison and Feature importance
+## Model comparison
+
 
 
 
