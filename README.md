@@ -69,14 +69,20 @@ when the SVM is Non-linear the dataset is mapped into a space of higher dimensio
 Random forest model with default hyperparameters.
 <img width="838" alt="Screen Shot 2022-05-16 at 4 55 17 PM" src="https://user-images.githubusercontent.com/75053989/168681043-0c5a2a7a-0d52-4fe7-93f3-dae94ec83d72.png">
 <br>
-#### Random forest After tunning by grid search.
+#### Random forest After tunning by grid search
 <img width="700" alt="Screen Shot 2022-05-16 at 4 57 53 PM" src="https://user-images.githubusercontent.com/75053989/168681445-1771e412-ec65-4510-b489-41e6566ffb46.png">
 <br>
-#### Feature importance
-<br>
+Feature importance
 <img width="640" alt="Screen Shot 2022-05-16 at 4 59 17 PM" src="https://user-images.githubusercontent.com/75053989/168681649-dc639e84-7db8-431a-b9c1-e13f5b29f0f9.png">
 
-
+#### SVC
+<img width="725" alt="Screen Shot 2022-05-16 at 5 03 06 PM" src="https://user-images.githubusercontent.com/75053989/168682164-be3df957-f068-49cd-ad41-fa32d889f690.png">
+<br>
+<img width="826" alt="Screen Shot 2022-05-16 at 5 03 31 PM" src="https://user-images.githubusercontent.com/75053989/168682211-be78edc9-412d-4003-a0bb-7b7932470835.png">
+<br>
+<img width="1010" alt="Screen Shot 2022-05-16 at 5 03 58 PM" src="https://user-images.githubusercontent.com/75053989/168682270-17a0eb70-a988-4dd0-8973-ab0e0f8bfea3.png">
+<br>
+<img width="792" alt="Screen Shot 2022-05-16 at 5 04 27 PM" src="https://user-images.githubusercontent.com/75053989/168682339-f9c5cea0-a4f3-4951-8e72-ac786cf131b2.png">
 
 
 
