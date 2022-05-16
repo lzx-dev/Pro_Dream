@@ -14,8 +14,23 @@ A project to help community college students transfer to well-known universities
 | `Chall_rate` | Categorical |  |
 | `Sex` | Categorical |  |
 | `House_income` | Categorical |  |
+| `State` | Categorical |  |
+| `Major` | Categorical |  |
+| `Declare_transfer_major_dummy` | Categorical |  |
+| `Credits_num` | Numeric |  |
+| `Courses_major_num` | Numeric |  |
+| `GPA` | Numeric |  |
+| `Part_time_dummy` | Categorical |  |
+| `Work_hours` | Categorical |  |
+| `Residency` | Categorical |  |
+| `Extra_curr_dummy` | Categorical |  |
+| `University_enc` | Categorical |  |
+
+
+
+
 
 
 The dataset contains:
 - 348 Unique rows
-- 8,183 games reviewed
+- 
