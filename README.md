@@ -123,6 +123,13 @@ SVC model with penalty 1.
 <img width="792" alt="Screen Shot 2022-05-16 at 5 04 27 PM" src="https://user-images.githubusercontent.com/75053989/168682339-f9c5cea0-a4f3-4951-8e72-ac786cf131b2.png">
 
 ## Model comparison
+   
+| Model | Accuracy | F1 |
+|--------|--------|--------|
+| Naive  | 62.356 | |
+| Random Forest  | 0.71 |0.77 |
+| SVC  | 0.71 | 0.78 |
+
 
 
 
