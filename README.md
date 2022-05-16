@@ -32,12 +32,24 @@ The dataset contains:
 - 348 Unique rows
 - 16 attributes selected based on significance of univariate logistic regression
 
+
+Little Unbalanced
+
+Missing Value
+
+
 ## Model 
 I did Random Forest Classifition and Bootstrapping SVC. Both of them are Ensemble Models. Here is a brief introduction.
 #### Random Forest
 
 
 #### SVC
+
+
+
+## Results
+
+## Model comparison and Feature importance
 
 
 
