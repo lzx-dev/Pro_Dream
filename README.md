@@ -62,6 +62,9 @@ The main objective in SVC is to find the optimal hyperplane to correctly classif
 For SVM with non-linear kernel functions, it is not possible to interpert feature importance, 
 when the SVM is Non-linear the dataset is mapped into a space of higher dimension, which is quite different from the parent dataset and the property is changed here, So I did not do non-lienar SVM in this project.
 
+#### Metrics
+I used accuracy and F1 score to evaluated trained model.
+
 
 ## Results
 
@@ -76,16 +79,20 @@ Feature importance
 <img width="640" alt="Screen Shot 2022-05-16 at 4 59 17 PM" src="https://user-images.githubusercontent.com/75053989/168681649-dc639e84-7db8-431a-b9c1-e13f5b29f0f9.png">
 
 #### SVC
+SVC model with penalty 1.
+<br>
 <img width="725" alt="Screen Shot 2022-05-16 at 5 03 06 PM" src="https://user-images.githubusercontent.com/75053989/168682164-be3df957-f068-49cd-ad41-fa32d889f690.png">
 <br>
+#### SVC model with tunned penalty
 <img width="826" alt="Screen Shot 2022-05-16 at 5 03 31 PM" src="https://user-images.githubusercontent.com/75053989/168682211-be78edc9-412d-4003-a0bb-7b7932470835.png">
 <br>
+
+#### Boostrap 95% confidence Interval
 <img width="1010" alt="Screen Shot 2022-05-16 at 5 03 58 PM" src="https://user-images.githubusercontent.com/75053989/168682270-17a0eb70-a988-4dd0-8973-ab0e0f8bfea3.png">
 <br>
+
+#### Feature Importance
 <img width="792" alt="Screen Shot 2022-05-16 at 5 04 27 PM" src="https://user-images.githubusercontent.com/75053989/168682339-f9c5cea0-a4f3-4951-8e72-ac786cf131b2.png">
-
-
-
 
 ## Model comparison and Feature importance
 
