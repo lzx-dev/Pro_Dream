@@ -59,15 +59,27 @@ Random forest is a supervised machine learning algorithm that is constructed fro
 <img width="768" alt="Screen Shot 2022-05-16 at 2 31 34 PM" src="https://user-images.githubusercontent.com/75053989/168659042-a8fc8dc9-1fe1-4d78-9ecf-d047571a9d00.png">
 <br>
 The main objective in SVC is to find the optimal hyperplane to correctly classify between data points of different classes.
-For SVM with non-linear kernel functions, it is not possible to interpert feature importance, so I did not do non-lienar SVM in this project.
-
-
-
-
-
+For SVM with non-linear kernel functions, it is not possible to interpert feature importance, 
+when the SVM is Non-linear the dataset is mapped into a space of higher dimension, which is quite different from the parent dataset and the property is changed here, So I did not do non-lienar SVM in this project.
 
 
 ## Results
+
+#### Random Forest
+Random forest model with default hyperparameters.
+<img width="838" alt="Screen Shot 2022-05-16 at 4 55 17 PM" src="https://user-images.githubusercontent.com/75053989/168681043-0c5a2a7a-0d52-4fe7-93f3-dae94ec83d72.png">
+<br>
+#### Random forest After tunning by grid search.
+<img width="700" alt="Screen Shot 2022-05-16 at 4 57 53 PM" src="https://user-images.githubusercontent.com/75053989/168681445-1771e412-ec65-4510-b489-41e6566ffb46.png">
+<br>
+#### Feature importance
+<br>
+<img width="640" alt="Screen Shot 2022-05-16 at 4 59 17 PM" src="https://user-images.githubusercontent.com/75053989/168681649-dc639e84-7db8-431a-b9c1-e13f5b29f0f9.png">
+
+
+
+
+
 
 ## Model comparison and Feature importance
 
