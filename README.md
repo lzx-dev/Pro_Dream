@@ -37,12 +37,15 @@ The dataset contains:
 
 
 <img width="436" alt="Screen Shot 2022-05-16 at 2 13 10 PM" src="https://user-images.githubusercontent.com/75053989/168656417-166f00c3-500d-48cd-8187-fe8fcfe77770.png">
-Little Unbalcned problem here, not no severe, so I did not do oversampling here. 
-
-
+Little Unbalcned problem here, not no severe, so I did not do oversampling.      <br>                                     
+217 rows data with label 1 and 131 rows data with label  0          <br>                          
+217/348 = 62.356   This is our naive benchmark.                 <br>
+   <br>
+   <br>
 
 Missing Value
 <img width="338" alt="Screen Shot 2022-05-16 at 2 14 18 PM" src="https://user-images.githubusercontent.com/75053989/168656557-22d69e04-c066-4039-ab9a-cb9f80565d0f.png">
+For attributes that could be zero like Act_commu_ser_num and Hours_commu_ser, I filled na with 0. For attributes that could not be zero like GPA and credits number, I filled na with the mean of corresponding attrtibutes group by the same major. If the applicant has a unique major, then na value is filled with global mean.
 
 
 ## Model 
